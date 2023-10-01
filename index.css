@@ -383,9 +383,13 @@ li:last-child {
   cursor: pointer;
   margin-bottom: 0.5rem;
   text-align: center;
-  background-color: #333;
+  background-color: #efefef;
   color: #333; /* Match your button text color */
   transition: background-color 0.3s ease-in-out;
+}
+.form-button:hover{
+  background-color: #555;
+
 }
 
 .dark .form-button {
@@ -484,4 +488,9 @@ li:last-child {
   overflow: auto;
   padding-bottom: 10px;
   margin-bottom: 10px; /* Enable scrolling when content exceeds dimensions */
+}
+
+.dark .textarea-container textarea {
+  background-color: #333;
+  color: #fff;
 }
