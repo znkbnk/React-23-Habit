@@ -385,7 +385,6 @@ li:last-child {
   text-align: center;
   background-color: #efefef;
   color: #333; /* Match your button text color */
-  transition: background-color 0.3s ease-in-out;
 }
 .form-button:hover{
   background-color: #555;
@@ -395,6 +394,7 @@ li:last-child {
 .dark .form-button {
   background-color: #333;
   color: #fff;
+
 }
 
 .form-button:hover {
